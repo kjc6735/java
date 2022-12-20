@@ -15,7 +15,6 @@ games.map((g) => {
         lastPrices[g[1]] = [price, g[0]];
     }
     else if (price < lastPrices[g[1]][0]) {
-        // g1 도 비했ㅓ야했나 ?
         
         games2[g[1]] -= lastPrices[g[1]][0];
         games2[g[1]] += price;
