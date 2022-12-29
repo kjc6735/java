@@ -17,8 +17,12 @@ class Q2{
             }
         });
         if (str[0].equals("0"))
-            return "0";
-        for (String s : str)
-            ans += s;
+            ans = "0";
+        else {
+            for (String s : str)
+                ans += s;
+        }
+        System.out.print(ans);
+        
   }
 }
